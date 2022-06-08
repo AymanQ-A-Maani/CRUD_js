@@ -53,7 +53,7 @@
         </div>
         <div class="container mt-4 d-flex justify-content-center gap-1">
             <button type="button" class=" addAndDeleteBtns btn btn-outline-dark fs-5 text-capitalize" id="addBtn">add employee</button>
-            <button type="button" class=" addAndDeleteBtns btn btn-outline-dark fs-5 text-capitalize" id="deleteAllbtn">delete all</button>
+            <button type="button" class=" addAndDeleteBtns btn btn-outline-dark fs-5 text-capitalize" disabled id="deleteAllbtn">delete all</button>
             <button type="button" class=" deleteSelectionBtn btn btn-outline-dark fs-5 text-capitalize" disabled id="addBtn">delete selection</button>
         </div>
         </div>
@@ -61,19 +61,19 @@
             <div class="row">
                 <div class="col g-0">
                     <table class="border border-1 border-dark table table-dark table-striped w-100" cellspacing="0" >
-                        <thead class="">
+                        <thead>
                             <tr class="text-capitalize tableRowHead">
-                                <th class=" col col-xl-1">#</th>
-                                <th class=" col col-xl-3">name</th>
-                                <th class=" col col-xl-3">age</th>
-                                <th class=" col col-xl-3">department</th>
-                                <th class=" col col-xl-3">Salary</th>
-                                <th class=" col col-xl-3 emptyCell "></th>
-                                <th class=" col col-xl-3 emptyCell "></th>
-                                <th class=" col col-xl-3 emptyCell "></th>
+                                <th class=" col-sm-1 col-md-1 col-xxl-1">#</th>
+                                <th class=" col-sm-3 col-md-3 col-xxl-3">name</th>
+                                <th class=" col-sm-3 col-md-3 col-xxl-3">age</th>
+                                <th class=" col-sm-3 col-md-3 col-xxl-3">department</th>
+                                <th class=" col-sm-3 col-md-3 col-xxl-3">Salary</th>
+                                <th class=" col-sm-3 col-md-3 col-xxl-3 emptyCell .hide"></th>
+                                <th class=" col-sm-3 col-md-3 col-xxl-3 emptyCell .hide"></th>
+                                <th class=" col-sm-3 col-md-3 col-xxl-3 emptyCell .hide"></th>
                             </tr>
                         </thead>
-                        <tbody id="tableData" class="">
+                        <tbody id="tableData">
                         </tbody>
                     </table>
                 </div>
