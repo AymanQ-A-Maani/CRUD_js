@@ -1,7 +1,7 @@
 # General info
 This project was done during the fornt-end phase of an online full-stack Bootcamp provided by an online educational institution called Knowledge Academy.
 # Project's Aim
-Students were tasked to create a CRUD system using only HTML5, Bootstrap, CSS3, and plain Javascript. 
+Students were tasked to create a CRUD system with local storage, using only HTML5, Bootstrap, CSS3, and plain Javascript. 
 # Project's Components
 In this CRUD, you should be able to add, delete, search and update the data in the table. It consists of two sections:
 ## 1. `Input Section`
